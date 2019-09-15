@@ -21,7 +21,8 @@
     "lint": "eslint ./{example,src}/**/*.{html,js}",
     "test": "npm run lint",
     "changelog": "auto-changelog -p",
-    "gh-release": "is-ci && gh-release -y"
+    "gh-release": "is-ci && gh-release -y",
+    "prepare": "yarn run build"
   },
   "keywords": [
     "font-awesome",
