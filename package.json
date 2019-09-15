@@ -31,7 +31,7 @@
     "svg"
   ],
   "dependencies": {
-    "svelte": "^3.8.1"
+    "svelte": ""
   },
   "devDependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.10.1",
