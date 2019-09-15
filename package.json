@@ -22,7 +22,7 @@
     "test": "npm run lint",
     "changelog": "auto-changelog -p",
     "gh-release": "is-ci && gh-release -y",
-    "prepare": "yarn run build"
+    "prepare": "npm run-script build"
   },
   "keywords": [
     "font-awesome",
