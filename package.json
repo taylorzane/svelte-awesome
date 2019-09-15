@@ -21,8 +21,7 @@
     "lint": "eslint ./{example,src}/**/*.{html,js}",
     "test": "npm run lint",
     "changelog": "auto-changelog -p",
-    "gh-release": "is-ci && gh-release -y",
-    "prepare": "yarn run build"
+    "gh-release": "is-ci && gh-release -y"
   },
   "keywords": [
     "font-awesome",
@@ -30,8 +29,8 @@
     "svelte",
     "svg"
   ],
-  "dependencies": {
-    "svelte": "https://github.com/taylorzane/svelte.git"
+  "peerDependencies": {
+    "svelte": "*"
   },
   "devDependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.10.1",
