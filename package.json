@@ -30,8 +30,8 @@
     "svelte",
     "svg"
   ],
-  "peerDependencies": {
-    "svelte": "*"
+  "dependencies": {
+    "svelte": "https://github.com/taylorzane/svelte.git#94eb04f605b85f02537ba3964299a336913df20a"
   },
   "devDependencies": {
     "@fortawesome/free-regular-svg-icons": "^5.10.1",
